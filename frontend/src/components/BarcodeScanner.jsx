@@ -1,3 +1,4 @@
+//Updated by Muhammad
 import React, { useEffect, useRef, useState } from "react";
 
 function BarcodeScanner({
