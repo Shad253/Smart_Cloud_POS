@@ -1,0 +1,45 @@
+.cam-page {
+  min-height: 100vh; padding: 24px;
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.16), transparent 30%),
+    radial-gradient(circle at top right, rgba(16, 185, 129, 0.14), transparent 28%),
+    linear-gradient(180deg, #f8fbff 0%, #eef4ff 100%);
+  font-family: "Inter", "Segoe UI", Arial, sans-serif; color: #0f172a;
+  display: flex; flex-direction: column; gap: 20px;
+}
+.cam-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+.cam-header h2 { margin: 0; font-size: 28px; font-weight: 800; letter-spacing: -0.03em; }
+.cam-header p { margin: 8px 0 0; color: #64748b; font-size: 14px; max-width: 620px; }
+.cam-store-badge { min-width: 120px; padding: 12px 18px; border-radius: 16px; background: rgba(255,255,255,.8); border: 1px solid rgba(148,163,184,.2); box-shadow: 0 10px 30px rgba(15,23,42,.08); text-align: center; }
+.cam-store-badge span { display: block; font-size: 12px; color: #64748b; }
+.cam-store-badge strong { font-size: 20px; color: #1d4ed8; }
+.cam-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 20px; }
+@media (max-width: 900px) { .cam-grid { grid-template-columns: 1fr; } }
+.cam-card { background: rgba(255,255,255,.85); border: 1px solid rgba(148,163,184,.18); border-radius: 22px; box-shadow: 0 18px 45px rgba(15,23,42,.08); padding: 18px; }
+.cam-video-wrap { position: relative; width: 100%; aspect-ratio: 4 / 3; border-radius: 16px; overflow: hidden; background: #0f172a; }
+.cam-video { width: 100%; height: 100%; object-fit: cover; transform: scaleX(-1); }
+.cam-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #cbd5e1; font-weight: 700; }
+.cam-result { position: absolute; left: 0; right: 0; bottom: 0; padding: 12px; text-align: center; font-weight: 800; font-size: 18px; color: #fff; }
+.cam-result.good { background: rgba(4,120,87,.85); }
+.cam-result.bad { background: rgba(190,24,24,.85); }
+.cam-result.info { background: rgba(37, 99, 235, 0.85); }
+.cam-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.cam-btn { border: none; border-radius: 12px; padding: 11px 16px; font-weight: 700; font-size: 13px; cursor: pointer; color: #fff; }
+.cam-btn.start { background: linear-gradient(135deg, #10b981, #047857); }
+.cam-btn.stop { background: linear-gradient(135deg, #ef4444, #dc2626); }
+.cam-btn.refresh { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+.cam-btn.close { background: linear-gradient(135deg, #f59e0b, #b45309); }
+.cam-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.cam-status { margin-top: 12px; padding: 10px 12px; border-radius: 10px; background: #fef3c7; color: #92400e; font-size: 13px; font-weight: 600; }
+.cam-list-title { margin: 0 0 12px; font-size: 18px; font-weight: 800; }
+.cam-list-wrap { overflow-x: auto; }
+.cam-table { width: 100%; border-collapse: collapse; }
+.cam-table th, .cam-table td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #edf2f7; white-space: nowrap; }
+.cam-table th { background: #f8fbff; color: #334155; font-size: 12.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; }
+.cam-bold { font-weight: 800; }
+.cam-empty { text-align: center; color: #64748b; padding: 24px; }
+.cam-badge { padding: 4px 11px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.cam-badge.present { background: #dcfce7; color: #166534; }
+.cam-badge.late { background: #fef3c7; color: #92400e; }
+.cam-badge.absent { background: #fee2e2; color: #991b1b; }
+.cam-badge.leave { background: #e0e7ff; color: #3730a3; }
