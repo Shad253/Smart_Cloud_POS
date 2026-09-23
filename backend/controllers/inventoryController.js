@@ -1,3 +1,4 @@
+//Updated by Muhammad
 // backend/controllers/inventoryController.js
 const db = require("../config/db");
 
