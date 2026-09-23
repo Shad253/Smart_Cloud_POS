@@ -55,7 +55,7 @@ Environment variables, database passwords, and JWT secrets are not stored in the
 
 ## Author
 
-Developed by Meherab Jim.
+Developed by Meherab Jim,Shad,Muhammad,Rohan & Pushpita.
 
 ## Purpose
 
