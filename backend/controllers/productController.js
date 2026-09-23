@@ -1,3 +1,4 @@
+//Updated by Muhammad
 const db = require("../config/db");
 
 exports.getProducts = async (req, res) => {
