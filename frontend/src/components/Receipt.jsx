@@ -1,3 +1,4 @@
+//updated by rohan
 import React from "react";
 
 function Receipt({ sale, onClose }) {
