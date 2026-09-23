@@ -1,6 +1,6 @@
 // Salary deduction rules — edit these numbers anytime.
 // One day's pay = monthly salary / WORKING_DAYS_DIVISOR
-
+//jim
 module.exports = {
   WORKING_DAYS_DIVISOR: 30,   // 1 day = salary / 30
   ABSENT_FREE_DAYS: 3,        // 4th absent day onward: 1 day cut each
