@@ -1,4 +1,4 @@
-//Updated by Shad
+--Updated by shad
 -- MariaDB dump 10.19  Distrib 10.4.32-MariaDB, for Win64 (AMD64)
 --
 -- Host: localhost    Database: pos_db
